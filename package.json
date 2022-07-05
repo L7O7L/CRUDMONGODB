@@ -1,0 +1,26 @@
+{
+  "name": "bdva",
+  "version": "1.0.0",
+  "description": "Proyecto Final de Base de Datos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Baltazar Segura Luis y Will Pari Muñante",
+  "license": "ISC",
+  "dependencies": {
+    "admin-lte": "3.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-myconnection": "^1.0.4",
+    "mongoose": "^6.4.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
